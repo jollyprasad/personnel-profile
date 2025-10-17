@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Layout helpers */
+.site-header{
+  position: sticky;
+  top: 0;
+  background: rgba(255,255,255,0.95);
+  border-bottom: 1px solid #e6e6e6;
+  z-index: 40;
+}
+.header-inner{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{width:44px;height:44px;border-radius:8px;background:linear-gradient(135deg,#6366f1,#8b5cf6);color:white;display:flex;align-items:center;justify-content:center;font-weight:700}
+.brand-text .name{font-weight:700}
+.brand-text .role{font-size:12px;color:#6b7280}
+.nav{display:flex;gap:10px}
+.nav .nav-item{padding:8px 12px;border-radius:6px;color:#374151;text-decoration:none}
+.nav .nav-item.active{background:#111827;color:white}
+
+.main-container{max-width:980px;margin:28px auto;padding:0 20px}
+
+.home-hero .hero-inner{display:flex;gap:24px;align-items:center}
+.hero-text h1{font-size:32px;margin:0}
+.lead{margin-top:10px;color:#374151}
+.hero-actions{margin-top:16px;display:flex;gap:10px}
+.btn{padding:10px 14px;border-radius:8px;text-decoration:none;display:inline-block}
+.btn.primary{background:#4f46e5;color:white}
+.btn.outline{border:1px solid #e5e7eb;color:#374151}
+.hero-photo .photo-placeholder{width:168px;height:168px;border-radius:12px;background:#f3f4f6;display:flex;align-items:center;justify-content:center;color:#9ca3af}
+
+.profile-photo{width:168px;height:168px;object-fit:cover;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.08);display:block}
+
+.about-section{margin-top:28px;background:white;padding:18px;border-radius:8px;border:1px solid #f3f4f6}
+
+.articles-page h2{font-size:24px}
+.articles-list{margin-top:16px;display:grid;gap:12px}
+.article-card{background:white;padding:16px;border-radius:8px;border:1px solid #f3f4f6}
+.article-card h3{margin:0}
+.read-link{margin-top:8px;display:inline-block;color:#4f46e5}
+
+.contact-page .contact-links{margin-top:12px;display:flex;gap:10px}
+.btn.blue{background:#0ea5e9;color:white}
+
+.site-footer{text-align:center;color:#6b7280;padding:28px 0}
+
+@media (max-width:720px){
+  .home-hero .hero-inner{flex-direction:column}
+  .hero-photo .photo-placeholder{width:140px;height:140px}
+}
+
