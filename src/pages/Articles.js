@@ -2,19 +2,14 @@ import React from 'react';
 
 const articles = [
   {
-    title: 'Mastering React Hooks',
-    summary: 'A deep dive into useState and useEffect for efficient state management.',
-    link: 'https://medium.com/@yourname/article1-link'
+    title: 'Scaling Unlocks Model Powers',
+    summary: 'How Scaling Laws Unlock Surprising Powers in Large Language Models.',
+    link: 'https://medium.com/@jolly.prasad12/scaling-laws-and-emergent-properties-in-large-language-models-15662c111e00'
   },
   {
-    title: 'CSS Grid vs. Flexbox: When to Use Which',
-    summary: 'Comparing the two layout models with practical, real-world examples.',
-    link: 'https://medium.com/@yourname/article2-link'
-  },
-  {
-    title: 'Optimizing Frontend Performance',
-    summary: 'Essential tips for reducing bundle size and improving load times.',
-    link: 'https://medium.com/@yourname/article3-link'
+    title: 'Gemini Python Seven Lines',
+    summary: 'Gemini in Python: Code Your First GenAI in Just 7 Lines.',
+    link: 'https://medium.com/@jolly.prasad12/create-your-first-genai-program-in-python-using-gemini-model-with-just-7-lines-of-code-b0c7fb4e4a31'
   }
 ]
 

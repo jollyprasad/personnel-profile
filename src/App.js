@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Articles from './pages/Articles';
+import Profile from './pages/Profile';
 import Contact from './pages/Contact';
 
 function App(){
@@ -13,6 +14,7 @@ function App(){
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/articles" element={<Articles/>} />
+          <Route path="/profile" element={<Profile/>} />
           <Route path="/contact" element={<Contact/>} />
           {/* Fallback: show Home for any unmatched route so opening the site displays homepage content */}
           <Route path="*" element={<Home/>} />

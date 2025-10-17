@@ -8,9 +8,10 @@ export default function Home(){
       <div className="hero-inner">
         <div className="hero-text">
           <h1>Jolly Prasad</h1>
-          <p className="lead">26 Years of extensive experience spanning IT delivery, program management, and client relationship management, especially within BFSI sector. This site showcases articles, contact details, and selected work.</p>
+          <p className="lead">26 years of experience in the IT industry and 23 years in TCS. A seasoned Delivery Partner in large BFSI account for 4 years. Specialized in managing delivery for large accounts, managing large programs / portfolio teams involving multiple technologies, solution architecting areas. Associated with major Banking and Financial Services customer for more than 20 years in providing the complete SDLC services (Delivery management, Large Program management, Portiolio management, Transformation services, Application Development, Transition, Maintenance and Quality Engineering) in various roles at onsite and offshore. Enthusiast for the detail and result orientation when it comes to Technology and solutioning of various IT services. This site showcases articles, contact details, and selected work.</p>
 
           <div className="hero-actions">
+            <Link to="/profile" className="btn secondary">View detailed Profile</Link>
             <Link to="/articles" className="btn primary">View Articles</Link>
             <Link to="/contact" className="btn outline">Contact Me</Link>
           </div>
@@ -23,9 +24,7 @@ export default function Home(){
 
       <div className="about-section">
         <h2>About Me</h2>
-        <p>My core expertise lies in the BFSI domain where I manage delivery of large relationships and programs.
-
-I have an avid interest in learning and exploring new technologies continuously to stay updated and deliver value.</p>
+        <p>As a Senior Consultant and Tech Enthusiast, I have a passion for leveraging technology to solve complex business challenges. My extensive experience in the IT industry has equipped me with a deep understanding of various technologies and their applications in real-world scenarios.</p>
       </div>
     </section>
   )

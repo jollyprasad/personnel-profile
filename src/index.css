@@ -45,6 +45,7 @@ code {
 .btn{padding:10px 14px;border-radius:8px;text-decoration:none;display:inline-block}
 .btn.primary{background:#4f46e5;color:white}
 .btn.outline{border:1px solid #e5e7eb;color:#374151}
+.btn.secondary{background:#eef2ff;border:1px solid #e0e7ff;color:#3730a3}
 .hero-photo .photo-placeholder{width:168px;height:168px;border-radius:12px;background:#f3f4f6;display:flex;align-items:center;justify-content:center;color:#9ca3af}
 
 .profile-photo{width:168px;height:168px;object-fit:cover;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.08);display:block}
